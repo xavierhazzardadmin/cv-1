@@ -1,0 +1,149 @@
+/**********************TAG SELECTORS**********************/
+body {
+    background-color: #d8e3e7;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.25;
+}
+
+td {
+    vertical-align: top;
+}
+
+
+textarea {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*********************CLASS SELECTORS*********************/
+.header {
+    background-color: #126e82;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.nav {
+    background-color: #51c4d3;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.selected {
+    background-color: #126d8296;
+    font-weight: bold;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav li:hover {
+    font-weight: bold;
+}
+
+.main-content {
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+.profile-pic {
+    padding: 0px 10px 10px 0px;
+    height: 226px;
+}
+
+.about {
+    height: 240px;
+    margin: 0px 10px 10px 10px;
+}
+
+.tech, .photo {
+    float: right;
+}
+
+.technology-image, .camera-image {
+    float: left;
+}
+
+.main-content form {
+    width: 500px;
+    float: left;
+}
+
+.main-content form td {
+    font-weight: 1;
+    text-align: left;
+}
+
+.main-content form legend, td, label, button {
+    font-size: 20px;
+}
+
+.main-content form input, textarea {
+    margin-bottom: 10px;
+}
+
+.main-content .contact_form input, textarea, ::placeholder {
+    background-color: #51c4d3;
+    border-color: black;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.main-content .contact_form button {
+    background-color: #51c4d3;
+    font-weight: bold;
+    border-color: #51c4d3
+}
+
+.main-content .contact_form button:hover {
+    cursor: pointer;
+    background-color: #126d82;
+    border-color: #126d82
+}
+
+
+.footer {
+    clear: both;
+    padding: 10px;
+    background-color: #132c33;
+    color: white;
+    text-align: right;
+    font-size: 25px;
+}
+
+/**********************ID SELECTORS***********************/
+
+
+/******************RESPONSIVE SELECTORS*******************/
+
